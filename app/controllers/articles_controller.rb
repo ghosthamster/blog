@@ -26,10 +26,12 @@ def update
   end
 end
 def edit
-end
-def index
-  @articles = Article.all
-end
+
+ end
+ def index
+   @articles = Article.paginate(page: params[:page], per_page: 5)
+ end
+ 
 def destroy
   @article.destroy
   flash[:success] = "Article was deleted"

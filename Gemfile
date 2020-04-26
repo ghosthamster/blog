@@ -21,7 +21,9 @@ gem 'uglifier', '>= 1.3.0'
 
 #some custom shit
 gem 'bootstrap-sass', '~> 3.3.6'
-#gem 'jquery-rails'
+gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 
 # Use CoffeeScript for .coffee assets and views
