@@ -10,3 +10,6 @@ $rails s
 
 go to http://localhost:3000/
 
+
+
+by Popovych Maksym-Volodymyr PZ-24
