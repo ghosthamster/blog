@@ -1,6 +1,6 @@
 # README
 
-90% complete
+complete
 
 * Ruby 2.3.3p222
 * Rails 5.1.7
